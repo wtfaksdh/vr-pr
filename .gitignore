@@ -1,0 +1,19 @@
+# Python / backend
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node / frontend
+node_modules/
+dist/
+*.tsbuildinfo
+
+# env-файлы с секретами
+.env
+*.env.local
+
+# ОС/редакторы
+.DS_Store
+.vscode/
+.idea/
