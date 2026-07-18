@@ -31,7 +31,12 @@ uvicorn app.main:app --host 0.0.0.0 --port 8000
 cd frontend
 npm run dev -- --host
 ```
-
+Через Docker
+```
+cp backend/.env.example backend/.env
+cp frontend/.env.example frontend/.env
+docker compose up -d --build
+```
 После запуска:
 - Frontend: **http://localhost:5173**
 - Backend / Swagger-документация: **http://localhost:8000/docs**
