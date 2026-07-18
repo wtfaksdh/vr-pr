@@ -12,10 +12,9 @@ export function RightSidebar() {
 
       <div className="widget widget--promo">
         <div className="widget__promo-icon">🧊</div>
-        <div className="widget__title">Демо-практика</div>
+        <div className="widget__title"></div>
         <div className="widget__text">
-          Это учебный проект: интерфейс стилизован под VK, но большая часть кнопок здесь —
-          декоративные заглушки. Рабочая часть — «Лента» и «Канбан» в меню слева.
+          Здесь могла быть ваша реклама
         </div>
       </div>
     </aside>

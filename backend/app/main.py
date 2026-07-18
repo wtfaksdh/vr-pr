@@ -9,6 +9,9 @@ app = FastAPI(title="VK Kanban API", version="1.0.0")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=settings.cors_origins_list,
+    # ngrok на бесплатном плане каждый раз выдаёт новый поддомен - без regex
+    # пришлось бы вручную обновлять CORS_ORIGINS в .env при каждом перезапуске
+    allow_origin_regex=r"https://.*\.ngrok-free\.app|https://.*\.ngrok\.io",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

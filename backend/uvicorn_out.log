@@ -1,0 +1,21 @@
+INFO:     94.176.3.131:0 - "GET / HTTP/1.1" 404 Not Found
+INFO:     94.176.3.131:0 - "GET /login HTTP/1.1" 404 Not Found
+INFO:     94.176.3.131:0 - "GET /login HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51667 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51680 - "POST /auth/register HTTP/1.1" 201 Created
+INFO:     94.176.3.131:0 - "POST /auth/register HTTP/1.1" 201 Created
+INFO:     94.176.3.131:0 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     94.176.3.131:0 - "GET /auth/me HTTP/1.1" 200 OK
+INFO:     94.176.3.131:0 - "GET /boards HTTP/1.1" 200 OK
+INFO:     94.176.3.131:0 - "GET /boards HTTP/1.1" 200 OK
+INFO:     94.176.3.131:0 - "POST /boards HTTP/1.1" 201 Created
+INFO:     94.176.3.131:0 - "GET /boards/1 HTTP/1.1" 200 OK
+INFO:     94.176.3.131:0 - "GET /boards/1/columns HTTP/1.1" 200 OK
+INFO:     94.176.3.131:0 - "GET /boards/1 HTTP/1.1" 200 OK
+INFO:     94.176.3.131:0 - "GET /boards/1/columns HTTP/1.1" 200 OK
+INFO:     94.176.3.131:0 - "POST /boards/1/columns HTTP/1.1" 201 Created
+INFO:     94.176.3.131:0 - "POST /boards/1/columns HTTP/1.1" 201 Created
+INFO:     94.176.3.131:0 - "POST /boards/1/columns HTTP/1.1" 201 Created
+INFO:     94.176.3.131:0 - "GET /boards/1/members HTTP/1.1" 200 OK
+INFO:     94.176.3.131:0 - "GET /boards/1/members HTTP/1.1" 200 OK
+INFO:     94.176.3.131:0 - "GET /users?search=ye HTTP/1.1" 200 OK
